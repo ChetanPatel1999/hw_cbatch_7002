@@ -1,0 +1,11 @@
+// wap to check given number is positive or nagative.
+#include <stdio.h>
+void main()
+{
+    int num;
+    printf("enter a num : ");
+    scanf("%d", &num); //-67
+
+    //  num < 0 ? printf("num is nagative") : printf("num is positive");
+    num >= 0 ? printf("num is positive") : printf("num is nagative");
+}
