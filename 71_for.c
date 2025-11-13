@@ -3,8 +3,8 @@
 void main()
 {
     int i;
-    for (i = 10; i >= 1; i--)
+    for (i = 10; i >= 1; i--) // 12
     {
-        printf("%d \n", i);
+        printf("%d ", i);
     }
 }
