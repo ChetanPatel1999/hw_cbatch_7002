@@ -5,7 +5,7 @@ void main()
 {
     int num, res = 0;
     printf("enter a num : ");
-    scanf("%d", &num); // 237
+    scanf("%d", &num); // 237635
     while (num > 0)
     {
         res++;
