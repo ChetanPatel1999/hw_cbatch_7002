@@ -4,14 +4,14 @@
 #include <stdio.h>
 void main()
 {
-    int mark, sum = 0, num;
+    int mark, sum = 0, num, count = 0;
     do
     {
-        printf("enter student marks : ");
+        printf("enter student%d marks : ", ++count);
         scanf("%d", &mark);
         sum = sum + mark;
         printf("enter 1 if more student : ");
-        scanf("%d", &num);
+        scanf("%d", &num); // 1
 
     } while (num == 1);
     printf("total marks sum = %d ", sum);
